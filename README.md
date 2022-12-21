@@ -13,7 +13,9 @@
   - SimpleVector(const SimpleVector& other)
   - SimpleVector(SimpleVector&& other)
 2. Итераторы begin, cbegin, end, cend
+  
 3. Операторы сравнения векторов  
+  
 4. Методы:
   - void Reserve(size_t new_capacity)
   - size_t GetSize()
@@ -27,8 +29,7 @@
   - void PopBack()
   - Iterator Erase(ConstIterator pos)
   - Iterator Erase(Iterator pos)
-  
-  
+    
 # Системные требования.
 
 С++17
